@@ -1,11 +1,22 @@
 class AuthenticationError(Exception):
-	pass
+    pass
+
 
 class IneligibleError(Exception):
-	pass
+    pass
+
 
 class InvalidAppIdError(Exception):
-	pass
+    pass
+
 
 class InvalidAppSecretError(Exception):
-	pass
+    pass
+
+
+class InvalidQuality(Exception):
+    pass
+
+
+class NonStreamable(Exception):
+    pass
